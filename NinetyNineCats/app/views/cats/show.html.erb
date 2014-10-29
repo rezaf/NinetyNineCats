@@ -13,14 +13,13 @@
     <th> Sex </th>
   </tr>
 
-  <% Cat.all.each do |cat| %>
-    <tr>
-      <td> <%= cat.name %> </td>
-      <td> <%= cat.birth_date %> </td>
-      <td> <%= cat.color %> </td>
-      <td> <%= cat.sex %> </td>
-    </tr>
-  <% end %>
+  <tr>
+    <td> <%= @cat.name %> </td>
+    <td> <%= @cat.birth_date %> </td>
+    <td> <%= @cat.color %> </td>
+    <td> <%= @cat.sex %> </td>
+  </tr>
+
     
   
 </table>
